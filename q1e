@@ -1,0 +1,33 @@
+1.e LINEAR SEARCH
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[6]; 
+    int x;
+    cout << "Enter six values for Array: ";
+    for (int i = 0; i <= 5; i++) {  
+        cin >> arr[i];
+    }
+    cout << "The array is :\n ";
+    for (int i = 0; i <= 5; i++) {
+        cout << arr[i] << " ";
+    }
+    
+    cout << "enter the number to be found ";
+    cin >> x ; 
+    for (int i = 0; i <=5; i++) 
+    {
+        if (arr[i] == x)
+        {
+            cout << "the number you need is at index : " << i ;
+        }
+    }
+  
+           
+    
+    return 0;
+
+}
+
