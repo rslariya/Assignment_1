@@ -1,0 +1,26 @@
+4. a 
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[6]; 
+    int i,j,z;
+    cout << "Enter six values for Array: ";
+    for ( i = 0; i <= 5; i++) {  
+        cin >> arr[i];
+    }
+    cout << "The array is :\n ";
+    for ( i = 0; i <= 5; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << "Reversed array is: \n";
+    for ( i =5; i >=0; i--) 
+    {
+       
+       cout << arr[i] << " ";
+    }
+   
+           
+    
+    return 0;
+}  
